@@ -1,0 +1,16 @@
+{
+  "name": "josepachecoprimeraentrega",
+  "version": "1.0.0",
+  "description": "Primera entrega de Backend 01",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "node --watch ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jose Pacheco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

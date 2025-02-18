@@ -1,0 +1,293 @@
+[
+	{
+		"id": 1,
+		"title": "Laptop Gaming ASUS ROG Strix",
+		"description": "Laptop de alto rendimiento para juegos con procesador Intel i7, 16GB RAM y tarjeta gráfica RTX 3060.",
+		"code": "LAP-ASUS-ROG",
+		"price": 1499.99,
+		"status": true,
+		"stock": 50,
+		"category": "Computadoras portátiles",
+		"thumbnails": [
+			"/images/laptop1_front.jpg",
+			"/images/laptop1_side.jpg"
+		]
+	},
+	{
+		"id": 2,
+		"title": "Teclado mecánico Corsair K95 RGB",
+		"description": "Teclado mecánico con retroiluminación RGB y teclas Cherry MX para una experiencia de escritura premium.",
+		"code": "TECL-COR-K95",
+		"price": 179.99,
+		"status": true,
+		"stock": 150,
+		"category": "Accesorios de computadora",
+		"thumbnails": [
+			"/images/teclado1_front.jpg",
+			"/images/teclado1_keys.jpg"
+		]
+	},
+	{
+		"id": 3,
+		"title": "Ratón Logitech G Pro X",
+		"description": "Ratón gaming con sensor HERO 25K y diseño ergonómico, ideal para jugadores profesionales.",
+		"code": "RAT-LOG-GPROX",
+		"price": 129.99,
+		"status": true,
+		"stock": 200,
+		"category": "Accesorios de computadora",
+		"thumbnails": [
+			"/images/raton1_front.jpg",
+			"/images/raton1_side.jpg"
+		]
+	},
+	{
+		"id": 4,
+		"title": "Monitor Dell UltraSharp 27",
+		"description": "Monitor 4K de 27 pulgadas con resolución UltraSharp, ideal para diseñadores gráficos.",
+		"code": "MON-DLL-U27",
+		"price": 699.99,
+		"status": true,
+		"stock": 80,
+		"category": "Monitores",
+		"thumbnails": [
+			"/images/monitor1_front.jpg",
+			"/images/monitor1_back.jpg"
+		]
+	},
+	{
+		"id": 5,
+		"title": "Unidad SSD Samsung 970 EVO Plus 1TB",
+		"description": "Disco duro sólido NVMe de 1TB con velocidades de lectura y escritura de hasta 3500 MB/s.",
+		"code": "SSD-SAM-970",
+		"price": 109.99,
+		"status": true,
+		"stock": 300,
+		"category": "Almacenamiento",
+		"thumbnails": [
+			"/images/ssd1_front.jpg",
+			"/images/ssd1_side.jpg"
+		]
+	},
+	{
+		"id": 6,
+		"title": "Procesador Intel Core i9-13900K",
+		"description": "Procesador de 13ª generación con 24 núcleos y 32 hilos, ideal para tareas intensivas y gaming.",
+		"code": "CPU-INT-I913K",
+		"price": 799.99,
+		"status": true,
+		"stock": 120,
+		"category": "Componentes",
+		"thumbnails": [
+			"/images/cpu1_front.jpg",
+			"/images/cpu1_side.jpg"
+		]
+	},
+	{
+		"id": 7,
+		"title": "Placa base MSI MAG Z690 TOMAHAWK",
+		"description": "Placa base ATX con soporte para procesadores Intel de 12ª generación y tecnología PCIe 5.0.",
+		"code": "MB-MSI-Z690",
+		"price": 249.99,
+		"status": true,
+		"stock": 95,
+		"category": "Componentes",
+		"thumbnails": [
+			"/images/placa1_front.jpg",
+			"/images/placa1_side.jpg"
+		]
+	},
+	{
+		"id": 8,
+		"title": "Tarjeta gráfica NVIDIA GeForce RTX 4080",
+		"description": "Tarjeta gráfica de última generación con 16GB de memoria GDDR6X, ideal para juegos 4K y trabajo profesional.",
+		"code": "GPU-NVID-RTX4080",
+		"price": 1599.99,
+		"status": true,
+		"stock": 60,
+		"category": "Componentes",
+		"thumbnails": [
+			"/images/gpu1_front.jpg",
+			"/images/gpu1_side.jpg"
+		]
+	},
+	{
+		"id": 9,
+		"title": "Auriculares Razer Kraken V3",
+		"description": "Auriculares gaming con sonido envolvente y micrófono ajustable, cómodos para largas sesiones de juego.",
+		"code": "AUR-RAZ-KRAKENV3",
+		"price": 99.99,
+		"status": true,
+		"stock": 250,
+		"category": "Accesorios de computadora",
+		"thumbnails": [
+			"/images/auriculares1_front.jpg",
+			"/images/auriculares1_side.jpg"
+		]
+	},
+	{
+		"id": 10,
+		"title": "Fuente de poder Corsair RM850x",
+		"description": "Fuente de poder de 850W con certificación 80 Plus Gold y cables modulares.",
+		"code": "PSU-COR-RM850",
+		"price": 129.99,
+		"status": true,
+		"stock": 180,
+		"category": "Componentes",
+		"thumbnails": [
+			"/images/fuente1_front.jpg",
+			"/images/fuente1_back.jpg"
+		]
+	},
+	{
+		"id": 11,
+		"title": "Memoria RAM Corsair Vengeance LPX 16GB",
+		"description": "Memoria RAM DDR4 de 16GB (2x8GB) a 3200 MHz, ideal para juegos y tareas multitarea.",
+		"code": "RAM-COR-VLPX",
+		"price": 79.99,
+		"status": true,
+		"stock": 350,
+		"category": "Componentes",
+		"thumbnails": [
+			"/images/ram1_front.jpg",
+			"/images/ram1_side.jpg"
+		]
+	},
+	{
+		"id": 12,
+		"title": "Laptop Apple MacBook Pro 16",
+		"description": "Laptop de 16 pulgadas con procesador M1 Pro, 32GB RAM y pantalla Retina 3K.",
+		"code": "LAP-APP-MBP16",
+		"price": 2399.99,
+		"status": true,
+		"stock": 70,
+		"category": "Computadoras portátiles",
+		"thumbnails": [
+			"/images/macbook1_front.jpg",
+			"/images/macbook1_side.jpg"
+		]
+	},
+	{
+		"id": 13,
+		"title": "Tarjeta madre ASUS ROG Strix Z590-E",
+		"description": "Placa base ATX para procesadores Intel Core de 10ª y 11ª generación, con soporte PCIe 4.0.",
+		"code": "MB-ASUS-Z590E",
+		"price": 349.99,
+		"status": true,
+		"stock": 110,
+		"category": "Componentes",
+		"thumbnails": [
+			"/images/placa2_front.jpg",
+			"/images/placa2_side.jpg"
+		]
+	},
+	{
+		"id": 14,
+		"title": "Webcam Logitech C920",
+		"description": "Webcam HD 1080p con enfoque automático y micrófono integrado, ideal para videollamadas.",
+		"code": "WEB-LOG-C920",
+		"price": 79.99,
+		"status": true,
+		"stock": 300,
+		"category": "Accesorios de computadora",
+		"thumbnails": [
+			"/images/webcam1_front.jpg",
+			"/images/webcam1_side.jpg"
+		]
+	},
+	{
+		"id": 15,
+		"title": "Disco duro externo WD My Passport 2TB",
+		"description": "Disco duro externo portátil de 2TB con protección por contraseña y backup automático.",
+		"code": "HDD-WD-2TB",
+		"price": 89.99,
+		"status": true,
+		"stock": 220,
+		"category": "Almacenamiento",
+		"thumbnails": [
+			"/images/hdd1_front.jpg",
+			"/images/hdd1_side.jpg"
+		]
+	},
+	{
+		"id": 16,
+		"title": "Silla gaming DXRacer Formula Series",
+		"description": "Silla ergonómica con soporte lumbar ajustable, ideal para largas sesiones de trabajo o juegos.",
+		"code": "SILLA-DXR-FORMULA",
+		"price": 299.99,
+		"status": true,
+		"stock": 40,
+		"category": "Accesorios de computadora",
+		"thumbnails": [
+			"/images/silla1_front.jpg",
+			"/images/silla1_side.jpg"
+		]
+	},
+	{
+		"id": 17,
+		"title": "Micrófono USB Blue Yeti",
+		"description": "Micrófono USB con múltiples patrones de captación, ideal para grabación de audio, streaming y podcasts.",
+		"code": "MIC-BLU-YETI",
+		"price": 129.99,
+		"status": true,
+		"stock": 150,
+		"category": "Accesorios de computadora",
+		"thumbnails": [
+			"/images/microfono1_front.jpg",
+			"/images/microfono1_side.jpg"
+		]
+	},
+	{
+		"id": 18,
+		"title": "Tablet Samsung Galaxy Tab S7",
+		"description": "Tablet de 11 pulgadas con procesador Snapdragon 865+, 6GB RAM y pantalla TFT de alta resolución.",
+		"code": "TAB-SAM-GALAXYS7",
+		"price": 649.99,
+		"status": true,
+		"stock": 120,
+		"category": "Tabletas",
+		"thumbnails": [
+			"/images/tablet1_front.jpg",
+			"/images/tablet1_side.jpg"
+		]
+	},
+	{
+		"id": 19,
+		"title": "Teclado inalámbrico Logitech K780",
+		"description": "Teclado inalámbrico compacto con soporte para múltiples dispositivos, compatible con PC, tablet y teléfono.",
+		"code": "TECL-LOG-K780",
+		"price": 59.99,
+		"status": true,
+		"stock": 250,
+		"category": "Accesorios de computadora",
+		"thumbnails": [
+			"/images/teclado2_front.jpg",
+			"/images/teclado2_side.jpg"
+		]
+	},
+	{
+		"id": 20,
+		"title": "Router WiFi TP-Link Archer AX6000",
+		"description": "Router WiFi 6 con 8 puertos LAN, ideal para conexiones de alta velocidad y múltiples dispositivos conectados.",
+		"code": "ROUT-TP-AX6000",
+		"price": 299.99,
+		"status": true,
+		"stock": 90,
+		"category": "Redes",
+		"thumbnails": [
+			"/images/router1_front.jpg",
+			"/images/router1_back.jpg"
+		]
+	},
+	{
+		"id": 21,
+		"title": "blblblb blblblb",
+		"description": "sdfsdf sdfsdfgsdfg sdfg fg dfvsd fg sdfgdfg dfsgsdfgfsd",
+		"code": "ABC123",
+		"price": "12593",
+		"status": "false",
+		"stock": "250",
+		"category": "Almacenamiento",
+		"thumbnails": "[\"/images/hdd1_front.jpg\",\"/images/hdd1_side.jpg\"]"
+	}
+]
