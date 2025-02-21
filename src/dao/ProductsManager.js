@@ -50,6 +50,35 @@ class ProductsManager {
         fs.writeFileSync(this.path, JSON.stringify(products, null, "\t"))
         return newProduct
     }
+
+    async updateProducts(id, updatedFields) {
+        const products = await this.getProducts()
+        const productIndex = products.findIndex(p => p.id == id)
+
+        if (productIndex === -1) {
+            return null
+        }
+
+        const updatedProduct = { ...products[productIndex], ...updatedFields }
+        products[productIndex] = updatedProduct
+        fs.writeFileSync(this.path, JSON.stringify(products, null, 2))
+
+        return products[productIndex]
+    }
+
+    async deleteProduct(id) {
+        let products = await this.getProducts()
+        const productIndex = products.findIndex(p => p.id == id)
+
+        if (productIndex === -1) {
+            return null
+        }
+
+        products = products.filter(p => p.id != id)
+        fs.writeFileSync(this.path, JSON.stringify(products, null, 2))
+        return { message: `Producto con id ${id} eliminado.` }
+    }
+
 }
 
 module.exports = { ProductsManager }
