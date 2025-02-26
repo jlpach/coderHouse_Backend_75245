@@ -13,7 +13,7 @@ class ProductsManager {
         }
     }
 
-    async addProducts(products) {
+    addProducts(products) {
         if (fs.existsSync(this.path)) {
             fs.writeFileSync(this.path, JSON.stringify(products), null, '\t')
         } else {
@@ -21,7 +21,7 @@ class ProductsManager {
         }
     }
 
-    async updateProducts(products) {
+    updateProducts(products) {
         if (fs.existsSync(this.path)) {
             fs.writeFileSync(this.path, JSON.stringify(products), null, '\t')
         } else {
@@ -29,7 +29,7 @@ class ProductsManager {
         }
     }
 
-    async deleteProduct(products) {
+    deleteProduct(products) {
         if (fs.existsSync(this.path)) {
             fs.writeFileSync(this.path, JSON.stringify(products), null, 2)
         } else {

@@ -258,5 +258,16 @@
         "stock": "12",
         "category": "Almacenamiento",
         "thumbnails": "[\"/images/hdd1_front.jpg\",\"/images/hdd1_side.jpg\"]"
+    },
+    {
+        "id": 23,
+        "title": "Nuevo producto de moda 2",
+        "description": "Este es el nuevo producto que todos quieren por que sale en TikTok",
+        "code": "NEW002",
+        "price": "2300",
+        "status": "true",
+        "stock": "876",
+        "category": "Almacenamiento",
+        "thumbnails": "[\"/images/hdd1_front.jpg\",\"/images/hdd1_side.jpg\"]"
     }
 ]
