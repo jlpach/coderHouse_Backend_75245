@@ -17,7 +17,10 @@ class CartsManager {
     createCart() {
         const carts = this.getCarts()
         const newId = carts.length > 0 ? carts[carts.length - 1].id + 1 : 1
-        const newCart = { id: newId, products: [] }
+        const newCart = {
+            id: newId,
+            products: []
+        }
         carts.push(newCart)
         this.saveCarts(carts)
         return newCart

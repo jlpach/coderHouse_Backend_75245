@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
     res.status(200).send("Pagina principal")
 })
 
-app.post('/api/carts/', (req, res) => {
+/* app.post('/api/carts/', (req, res) => {
     const newCart = cartsManager.createCart()
     res.status(201).json(newCart)
 })
@@ -44,7 +44,7 @@ app.post('/api/carts/:cid/product/:pid', (req, res) => {
     }
 
     res.json(cart)
-})
+}) */
 
 app.listen(PORT, () => {
     console.log(`Server en linea en puerto ${PORT}`)

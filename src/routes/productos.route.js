@@ -40,6 +40,13 @@ router.get('/:pid', async (req, res) => {
 
 router.post('/', async (req, res) => {
     let { title, description, code, price, status, stock, category, thumbnails } = req.query
+
+    if (!title || !description || !code || !price || !status || !stock || !category || !thumbnails) {
+        res.setHeader('Content-Type', 'application/json')
+        res.status(400).json({ error: 'Todos los campos son obligatorios, ingresa todos los valores.' })
+        return
+    }
+
     let products = await productsManager.getProducts()
 
     let id = 1
@@ -52,7 +59,7 @@ router.post('/', async (req, res) => {
     }
 
     products.push(newProduct)
-    await productsManager.addProducts(products)
+    productsManager.addProducts(products)
     res.send(newProduct)
 })
 
