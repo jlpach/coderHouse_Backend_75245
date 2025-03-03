@@ -21,13 +21,17 @@ router.get('/:pid', async (req, res) => {
     let products = await productsManager.getProducts()
 
     if (isNaN(pid)) {
-        res.send("Please enter a number")
+        res.setHeader('Content-Type', 'application/json')
+        res.status(400).json({ error: 'Please enter a number' })
+        return
     }
 
     const indexExists = products.findIndex(p => p.id == pid)
 
     if (indexExists == -1) {
-        res.send("Por favor entra un indice existente.")
+        res.setHeader('Content-Type', 'application/json')
+        res.status(400).json({ error: 'Por favor entra un indice existente.' })
+        return
     }
 
     const product = products.find(p => {
@@ -112,6 +116,7 @@ router.delete('/:pid', async (req, res) => {
     const productIndex = products.findIndex(p => p.id == pid)
 
     if (productIndex === -1) {
+        res.setHeader('Content-Type', 'application/json')
         return res.status(404).json({ error: "Producto no encontrado" })
     }
 
@@ -119,6 +124,7 @@ router.delete('/:pid', async (req, res) => {
 
     await productsManager.deleteProduct(products)
 
+    res.setHeader('Content-Type', 'application/json')
     res.status(200).json({ message: `Producto con id ${pid} eliminado.` })
 })
 
