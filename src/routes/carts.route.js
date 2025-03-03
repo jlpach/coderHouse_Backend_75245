@@ -54,7 +54,7 @@ router.post('/:cid/product/:pid', async (req, res) => {
         cart.products.push({ product: pid, quantity: 1 })
     }
 
-    cartsManager.addProductToCart(cart)
+    cartsManager.addProductToCart(carts)
 
     res.setHeader('Content-Type', 'application/json')
     res.status(200).json(cart)
