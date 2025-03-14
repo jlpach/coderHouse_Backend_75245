@@ -4,10 +4,9 @@ const router = Router()
 
 const productsManager = new ProductsManager("./src/data/products.json");
 
-router.get("/realtimeproducts", async (req, res) => {
-    let productos = await productsManager.getProducts
+router.get("/", async (req, res) => {
+    let productos = await productsManager.getProducts()
     let producto = productos[2]
-
     res.render("realtimeproducts", { titulo: producto.title })
 })
 

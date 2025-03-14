@@ -13,11 +13,11 @@ app.use(express.urlencoded({ extended: true }))
 
 app.engine("handlebars", engine())
 app.set("view engine", "handlebars")
-app.set("views", "../src/views")
+app.set("views", "./src/views")
 
 app.use('/api/products', productsRouter)
 app.use('/api/carts', cartsRouter)
-app.use('/', viewsRouter)
+app.use('/realtimeproducts', viewsRouter)
 
 app.get("/", (req, res) => {
     res.setHeader('Content-Type', 'Text/plain')
