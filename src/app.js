@@ -17,7 +17,8 @@ app.set("views", "./src/views")
 
 app.use('/api/products', productsRouter)
 app.use('/api/carts', cartsRouter)
-app.use('/realtimeproducts', viewsRouter)
+app.use('/home', viewsRouter)
+app.use('/', viewsRouter)
 
 app.get("/", (req, res) => {
     res.setHeader('Content-Type', 'Text/plain')
