@@ -1,14 +1,13 @@
 <h1>Lista de productos</h1>
-
-{{#each products}}
-<div class="card">
-    <label for="titulo">Título:</label>
-    <span id="titulo">{{this.title}}</span>
+<div class="container">
+    {{#each products}}
+        <div class="card">
+            <label for="titulo">Título:</label>
+            <span id="titulo">{{this.title}}</span>
+            <label for="descripcion">Descripción:</label>
+            <span id="descripcion">{{this.description}}</span>
+            <label for="precio">Precio:</label>
+            <span id="precio">{{this.price}}</span>
+        </div>
+    {{/each}}
 </div>
-    <label for="descripcion">Descripción:</label>
-    <span id="descripcion">{{this.description}}</span>
-</div>
-    <label for="precio">Precio:</label>
-    <span id="precio">{{this.price}}</span>
-</div>
-{{/each}}

@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(to bottom, #f7f7f7, #e0e0e0);
+    color: #333;
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;      
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: space-evenly; 
+    gap: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card {
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.card label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0px;
+}

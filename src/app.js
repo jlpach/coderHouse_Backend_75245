@@ -1,4 +1,5 @@
 const express = require("express")
+const { Server } = require("socket.io")
 const productsRouter = require('./routes/productos.route.js')
 const cartsRouter = require('./routes/carts.route.js')
 const viewsRouter = require('./routes/views.router.js')
@@ -10,6 +11,8 @@ const app = express()
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }))
+
+app.use(express.static("public"));
 
 app.engine("handlebars", engine())
 app.set("view engine", "handlebars")
@@ -25,7 +28,9 @@ app.get("/", (req, res) => {
     res.status(200).send("Pagina principal")
 })
 
-app.listen(PORT, () => {
+const serverHttp = app.listen(PORT, () => {
     console.log(`Server en linea en puerto ${PORT}`)
 })
+
+const io = new Server(serverHttp)
 
